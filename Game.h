@@ -64,6 +64,10 @@ namespace Gaming {
         Status getStatus() const { return __status; }
         unsigned int getRound() const { return __round; }
         const Piece *getPiece(unsigned int x, unsigned int y) const;
+        //random
+        //more random stuff
+        //yet more random stuff
+        //MORE STUFF
 
         // grid population methods
         void addSimple(const Position &position);
@@ -76,7 +80,7 @@ namespace Gaming {
         void addFood(unsigned x, unsigned y);
         void addAdvantage(const Position &position);
         void addAdvantage(unsigned x, unsigned y);
-        const Surroundings getSurroundings(const Position &pos) const;
+        const Surroundings getSurroundings(const Position &position) const;
 
         // gameplay methods
         static const ActionType reachSurroundings(const Position &from, const Position &to); // note: STAY by default
