@@ -29,7 +29,7 @@ namespace Gaming {
     //object reference.
     std::ostream &operator<<(std::ostream &os, const Piece &piece)
     {
-        /*stuff still need to go in here*/
+        piece.print(os);
         return os;
     }
 
